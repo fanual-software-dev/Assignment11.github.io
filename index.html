@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11</title>
+    <link rel="icon" href="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721520000&semt=ais_user">
+    <style>
+
+        body{
+            background-image: url(./back1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        form{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .div1{
+            width: 450px;
+            height: 400px;
+            background-color: rgba(240, 248, 255, 0.205);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+            border-radius: 6px;
+        }
+
+        input:not(input[type=checkbox]){
+            width: 90%;
+            height: 40px;
+            background-color: rgba(240, 248, 255, 0.281);
+            border: none;
+            border-radius: 5px;
+        }
+
+        button{
+            margin-top: 20px;
+            width: 90%;
+            height: 40px;
+            color: aliceblue;
+            font-size: 16px;
+            background-color: rgb(23, 85, 85);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(12, 66, 121);
+        }
+        
+        .p1{
+            color: black;
+            font-size: 28px;
+            font-family: Open Sans;
+            font-weight: bold;
+        }
+
+        ::placeholder{
+            /* color: rgba(255, 255, 255, 0.514); */
+            font-size: 16px;
+            padding-left: 10px;
+        }
+
+        .div2{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .div3{
+            width: 50%;
+            display: flex;
+            gap: 5px;
+        }
+
+        a{
+            text-decoration: none;
+            color:rgba(26, 109, 177, 0.979);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="div1">
+            <p class="p1">Account Login</p>
+            <input type="text" placeholder="User Name">
+            <input type="text" placeholder="Password">
+            <button type="submit">LOGIN</button>
+            <div class="div2">
+                <div class="div3">
+                    <input type="checkbox">
+                    <p>remember me</p>
+                </div>
+
+                <p class="p2"><a href="">Forgot Password ?</a></p>
+            </div>
+        </div>
+    </form>
+   
+</body>
+</html>
